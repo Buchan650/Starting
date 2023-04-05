@@ -1,0 +1,123 @@
+/*Universal Styles*/
+
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: roboto;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: raleway;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1rem;
+    font-family: bitter;
+}
+
+header{
+    margin: 0 4rem;
+}
+
+.content_box{
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+/*Color section*/
+
+#colors{
+    width: 90%;
+    height: auto;
+    padding: 2rem;
+    border: 2px solid black;
+    margin: 2rem auto;
+    
+}
+
+#colors h3{
+    padding: 1rem 5rem;
+    margin: .25rem;
+    color: #ffffff;
+    text-align: center;
+    width: 32%;
+    height: auto;
+    display: inline-block;
+    line-height: 2;
+}
+
+#color1{
+    background-color: #1d00c4;
+}
+
+#color2{
+    background-color: #ffd700;
+}
+
+#color3{
+    background-color: #4db4ad;
+}
+
+#color4{
+    background-color:#bdb76b;
+}
+
+/*Font section*/
+
+#fonts{
+    width: 90%;
+    height: auto;
+    padding: 2rem;
+    border: 2px solid black;
+    margin: 2rem auto;
+}
+
+#font1 h3, #font1 p{
+    font-family: Roboto;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+#font2 h3, #font2 p{
+    font-family: Raleway;
+}
+
+#font3 h3, #font3 p{
+    font-family: Bitter;
+}
+
+.fonts{
+    display: inline-block;
+    width:40%;
+    height: auto;
+    padding: 1rem 0;
+    margin: 1rem;
+
+}
+
+/*Text Style section*/
+
+#text_styles{
+    width: 90%;
+    height: auto;
+    padding: 2rem;
+    border: 2px solid black;
+    margin: 2rem auto;
+}
